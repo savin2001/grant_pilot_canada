@@ -54,7 +54,7 @@ When you run the application, you will see buttons to "Quick-Fill" test profiles
 - **Lucide React:** For consistent iconography.
 
 ### AI & Logic Engine
-- **Google Gemini API (`gemini-2.5-flash-latest`):** The core intelligence.
+- **Google Gemini API (`gemini-3-flash-preview`):** The core intelligence.
   - Used for **Semantic Matching**: Comparing unstructured project descriptions against grant criteria.
   - Used for **Structured Extraction**: Returning strict JSON responses for "Match Score", "Hard Disqualifiers", and "Document Checklists".
   - **Reasoning**: The model is instructed to act as a "Senior Grant Adjudicator" with a low temperature (0.1) to prioritize factual accuracy over creativity.
